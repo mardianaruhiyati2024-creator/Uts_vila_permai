@@ -1,0 +1,325 @@
+
+/* RESET DAN BOX MODEL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HEADER DAN NAVBAR */
+.header {
+    background-color: #245c43;
+    padding: 15px 7%;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar__logo {
+    font-size: 26px;
+    color: white;
+}
+
+.navbar__menu {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.navbar__menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar__menu a:hover {
+    color: #d7e8b5;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #245c43, #6b9b68);
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #f2c879;
+    color: #333;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #e4ae4d;
+    transform: translateY(-3px);
+}
+
+/* DAFTAR VILA */
+.villa-section {
+    padding: 60px 7%;
+    text-align: center;
+}
+
+.villa-section h2,
+.booking-section h2 {
+    color: #245c43;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.search-box {
+    margin: 25px auto;
+    max-width: 500px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.villa-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.villa-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 22px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.villa-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.villa-card h3 {
+    color: #245c43;
+    margin-bottom: 12px;
+}
+
+.villa-card__price {
+    color: #d18b25;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+.villa-card p {
+    margin-bottom: 8px;
+}
+
+.villa-card__status {
+    display: inline-block;
+    background-color: #d9efda;
+    color: #246b35;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+/* FORM PEMESANAN */
+.booking-section {
+    background-color: #eaf1e8;
+    padding: 60px 7%;
+}
+
+.booking-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#bookingForm {
+    background-color: white;
+    max-width: 750px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.form-buttons button {
+    flex: 1;
+    padding: 13px;
+    border: none;
+    border-radius: 7px;
+    background-color: #245c43;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-buttons button:hover {
+    background-color: #397c59;
+    transform: translateY(-2px);
+}
+
+/* HASIL DAN PESAN ERROR */
+.result-box {
+    max-width: 750px;
+    margin: 25px auto;
+    padding: 22px;
+    background-color: white;
+    border: 1px solid #cbdcc8;
+    border-radius: 10px;
+}
+
+.result-box h3 {
+    color: #245c43;
+    margin-bottom: 12px;
+}
+
+.error-message {
+    max-width: 750px;
+    margin: 15px auto;
+    color: #c62828;
+    font-weight: bold;
+}
+
+#daftarPesanan {
+    max-width: 750px;
+    margin: 20px auto;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #245c43;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.footer h3 {
+    margin-bottom: 10px;
+}
+
+/* ANIMASI */
+.villa-card {
+    animation: muncul 0.6s ease;
+}
+
+@keyframes muncul {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* RESPONSIVE TABLET */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .villa-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .booking-section,
+    .villa-section {
+        padding: 40px 5%;
+    }
+}
+
+/* RESPONSIVE HP */
+@media screen and (max-width: 480px) {
+    .navbar__menu {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .villa-container {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .hero h1 {
+        font-size: 25px;
+    }
+
+    .form-buttons {
+        flex-direction: column;
+    }
+
+    #bookingForm {
+        padding: 20px;
+    }
+}
