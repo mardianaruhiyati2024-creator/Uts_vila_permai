@@ -1,5 +1,9 @@
 🏡 Villa Permai - Website Pemesanan Vila
 
+Identitas Mahasiswa
+Nama: Mardiana Ruhiayti
+NIM: 24011130450
+
 Deskripsi Proyek
 
 Villa Permai merupakan website pemesanan vila yang berlokasi di kawasan Puncak, Kabupaten Bogor, Jawa Barat.
