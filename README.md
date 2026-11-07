@@ -47,8 +47,10 @@ Dokumentasi
 ## Dokumentasi
 
 ![Screenshot Website Villa Permai](foto_web_mardiana.png)
-![Screenshot Website Villa Permai](foto_web_mardiana.png)
 
 GitHub Repository
+![Screenshot Website Villa Permai](ss-commit-github.png.jpeg)
+
+
 
 https://github.com/mardianaruhiyati2024-creator/Uts_vila_permai
