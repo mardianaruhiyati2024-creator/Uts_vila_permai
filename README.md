@@ -47,6 +47,7 @@ Dokumentasi
 ## Dokumentasi
 
 ![Screenshot Website Villa Permai](foto_web_mardiana.png)
+![Screenshot Website Villa Permai](foto_web_mardiana.png)
 
 GitHub Repository
 
