@@ -44,7 +44,9 @@ Identitas Proyek
 
 Dokumentasi
 
-Screenshot tampilan website akan dilampirkan pada bagian dokumentasi.
+## Dokumentasi
+
+![Screenshot Website Villa Permai](foto_web_mardiana.png)
 
 GitHub Repository
 
